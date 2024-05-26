@@ -52,5 +52,5 @@ if ! grep -q '^radius' /etc/group; then
 fi
 
 # And add RADIUS users to this group
-usermod -aG radius radius_user
-usermod -aG radius radius_priv_user
+#usermod -aG radius radius_user
+#usermod -aG radius radius_priv_user
