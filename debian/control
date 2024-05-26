@@ -68,7 +68,7 @@ Depends:
   lcdproc-extra-drivers,
   libatomic1,
   libndp-tools,
-  libpam-radius-auth (>= 1.5.0),
+#libpam-radius-auth (>= 1.5.0),
   libqmi-utils,
   libvyosconfig0,
   lldpd,
