@@ -222,6 +222,7 @@ def apply(ha):
     if 'restart_required' in ha:
         systemd_action = 'restart'
 
+    call(f'echo Hellow World! > /tmp/hellow_world.txt')
     call(f'systemctl {systemd_action} {service_name}')
     return None
 
